@@ -109,8 +109,8 @@ The Random Forest model showed clear improvements, highlighting the importance o
 ### Observed vs Predicted pIC50 (Test Set)
 
 ![Observed vs Predicted](reports/figures/obs_vs_pred_test.png)
+This plot shows strong agreement between observed and predicted pIC50 values on the held-out test set, demonstrating good generalization performance of the final Random Forest model across diverse chemical scaffolds.
 
-This plot shows strong agreement between observed and predicted pIC50 values on the held-out test set, indicating robust generalization of the final Random Forest model.
 
 ---
 
