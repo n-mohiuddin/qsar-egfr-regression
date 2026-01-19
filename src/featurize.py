@@ -44,4 +44,3 @@ def featurize_many(smiles_list):
     """List[str] -> (n, 2054) feature matrix."""
     feats = [featurize_smiles(s) for s in smiles_list]
     return np.vstack(feats)
-
